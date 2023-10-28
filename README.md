@@ -1,59 +1,36 @@
-# GenericTemplate
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-**[Insert a brief description of your application here. Describe its purpose, functionality, etc.]**
+## Getting Started
 
-## 🌐 Demo
+First, run the development server:
 
-[Your Demo Link Here](http://replace-with-your-link.com)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-**Demo Credentials (If applicable):**
-- **Username:** ReplaceThisWithUsername
-- **Password:** ReplaceThisWithPassword
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📖 About this Software
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Provide a comprehensive explanation of your software here. Dive into its core functionalities, why you opted to create it, its target users, and its value proposition.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-### Features:
+## Learn More
 
-1. **Feature 1:** Brief description.
-2. **Feature 2:** Brief description.
-3. **...:** Continue listing out the core features of your application.
+To learn more about Next.js, take a look at the following resources:
 
-## 🖼️ Screenshots
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-To give you a visual overview of the application, here are some screenshots:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-### [Feature or Page Name]
-![Description of Image](http://link-to-your-image.com/image1.png)
+## Deploy on Vercel
 
-### [Another Feature or Page Name]
-![Description of Image](http://link-to-your-image.com/image2.png)
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Add more screenshots as needed. Ensure to replace placeholders with appropriate links and descriptions.
-
-## ⚠️ Warning
-
-**Changing the repository name is NOT allowed.** Renaming this repository can cause issues with the peer review feature integrated into this template. 
-
-If you're planning to present this project to potential employers or external parties:
-
-1. Ensure that all functionalities work as expected.
-2. **Remove this warning section** to maintain a clean and professional look.
-
-## ✅ Best Practices to Follow
-
-To ensure high-quality projects, we recommend adhering to the following best practices:
-
-1. **Gitflow:** Always use pull requests (PRs) for introducing new features or changes. This helps in maintaining a clean commit history and enables peer reviews.
-2. **Commit Formatting:** Follow a commit convention such as Git convention or [Conventional Commits](https://www.conventionalcommits.org/). It makes the commit history readable and easy to understand.
-3. **Test Coverage:** Aim for a minimum test coverage of 80-90%. This ensures that the majority of your code is tested, reducing potential bugs and regressions.
-4. **Comprehensive README:** A well-documented README provides clarity about the project's purpose, usage, and maintenance.
-5. **Live Demo:** Always provide a live demo with login credentials (if applicable). It offers a hands-on experience of your application to users or potential employers.
-6. **Continuous Integration (CI):** Implement CI to automatically build and test your project. This ensures that your code is always in a deployable state.
-7. **Continuous Deployment (CD):** While CI is a must, having CD is a nice-to-have feature. It automates the deployment process, ensuring that the latest changes are instantly accessible to users.
-8. **Clean Code:** Avoid clutter or "junk" in your code. Ensure that your codebase is organized, commented when necessary, and follows established coding standards.
-
----
-
-Happy coding! 💻
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
